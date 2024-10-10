@@ -368,7 +368,7 @@ type Product = {
   export const menu: Menu = [
     {
       id: 1,
-      slug: "pastas",
+      slug: "CATERING",
       title: "Italian Pastas",
       desc: "Savor the taste of perfection with our exquisite Italian handmade pasta menu.",
       img: " ",
@@ -376,7 +376,7 @@ type Product = {
     },
     {
       id: 2,
-      slug: "burgers",
+      slug: "SHORT ORDER",
       title: "Juicy Burgers",
       desc: "Burger Bliss: Juicy patties, bold flavors, and gourmet toppings galore.",
       img: "/temporary/m2.png",
@@ -384,7 +384,7 @@ type Product = {
     },
     {
       id: 3,
-      slug: "pizzas",
+      slug: "SNACKS",
       title: "Cheesy Pizzas",
       desc: "Pizza Paradise: Irresistible slices, mouthwatering toppings, and cheesy perfection.",
       img: "/temporary/m3.png",
