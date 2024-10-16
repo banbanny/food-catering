@@ -7,7 +7,7 @@ export const GET = async (req:NextRequest) => {
     const { searchParams } = new URL(req.url);
     const cat = searchParams.get("cat");
 
-  
+
 
     try {
       const products = await prisma.product.findMany({
